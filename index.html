@@ -1,35 +1,44 @@
-Grade-9-work-experience/
-│
-├── index.html
-├── style.css
-├── script.js
-├── resume.pdf
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mark Tschon Resume</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<h1>Mark Tschon</h1>
-<p>Welcome to my resume website!</p>
+    <header>
+        <h1>Mark Tschon</h1>
+        <p>Hello! I am a Grade 9 student passionate about coding, technology, and sports.</p>
+    </header>
 
-<h2>About Me</h2>
-<p>I am a Grade 9 student who enjoys coding and sports.</p>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I enjoy building websites, learning new technology, and playing football with my team. I like solving problems and trying new coding projects.</p>
+    </section>
 
-<h2>Skills</h2>
-<ul>
-    <li>Python</li>
-    <li>HTML & CSS</li>
-    <li>Teamwork</li>
-</ul>
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Python</li>
+            <li>HTML & CSS</li>
+            <li>JavaScript (basic)</li>
+            <li>Teamwork</li>
+            <li>Problem Solving</li>
+        </ul>
+    </section>
 
-<h2>Resume</h2>
-<a href="resume.pdf" target="_blank">Download my Resume</a>
+    <section id="resume">
+        <h2>Resume</h2>
+        <p>You can download my resume here:</p>
+        <a href="resume.pdf" target="_blank">Download my Resume</a>
+    </section>
 
-<button onclick="hello()">Click Me</button>
+    <section id="contact">
+        <button onclick="hello()">Click to Learn More About Me</button>
+    </section>
 
-<script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
